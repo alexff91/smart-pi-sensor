@@ -1,0 +1,8 @@
+spring.jpa:
+  database: DERBY
+  hibernate.ddl-auto: create-drop
+  show-sql: true
+
+spring.datasource:
+  driverClassName: org.apache.derby.jdbc.ClientDriver
+  url: jdbc:derby:memory:pidb
